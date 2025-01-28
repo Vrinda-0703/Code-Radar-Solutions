@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main() {
-    str name[100],hobby[100];
+    str name[100];
     int age;
+    str hobby[100];
     scanf("%s", &name);
     printf("Name: %s",name);
     scanf("%d", &age);
