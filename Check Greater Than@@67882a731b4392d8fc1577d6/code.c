@@ -9,5 +9,7 @@ int main() {
         printf("True");
     else if(b>a)
         printf("False");
+    else
+        printf("equal");
     return 0;
 }
