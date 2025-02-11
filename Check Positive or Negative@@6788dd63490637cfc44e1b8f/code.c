@@ -2,13 +2,13 @@
 int main() {
     int a;
     if(a>0){
-        printf("Positive %d", a);
+        printf("Positive %d");
     }
     else if(a<0){
-        printf("Negative %d", a);
+        printf("Negative %d");
     }
     else if(a==0){
-        printf("Zero %d", a);
+        printf("Zero %d");
     }
     return 0;
 }
