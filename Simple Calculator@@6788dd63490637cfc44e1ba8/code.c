@@ -13,7 +13,8 @@ int main(){
         printf("%d",a-b);
         break;
     case '*':
-        printf("%d",a*b);
+        c=a*b;
+        printf("%d",c);
         break;
     case '/':
         printf("%",a/b);
