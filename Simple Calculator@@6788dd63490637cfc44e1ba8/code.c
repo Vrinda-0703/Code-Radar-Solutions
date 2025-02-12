@@ -5,7 +5,7 @@ int main(){
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%c",&c);
-    switch (c);
+    switch (c){
     case'+':
         int sum=a+b;
         printf(sum);
@@ -23,4 +23,5 @@ int main(){
         printf(div);
         break;
     default:printf(Error);
+    return 0;}
 }
