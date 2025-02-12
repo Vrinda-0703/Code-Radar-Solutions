@@ -6,25 +6,21 @@ int main(){
     scanf("%d", &b);
     scanf("%c",&c);
     switch (c);
-    case'+':{
+    case'+':
         int sum=a+b;
         printf(sum);
         break;
-    }
-    case'-':{
+    case'-':
         int diff=a-b;
         printf(diff);
         break;
-    }
-    case'*':{
+    case'*':
         int c=a*b;
         printf(c);
         break;
-    }
-    case'/':{
+    case'/':
         int div=a/b;
         printf(div);
         break;
-    }  
     default:printf(Error);
 }
