@@ -20,7 +20,7 @@ int main(){
         break;
     case '/':
         int z=a/b;
-        printf("%",z);
+        printf("%d",z);
         break;
     default:
         printf("Error");
