@@ -26,5 +26,5 @@ int main(){
         printf(div);
         break;
     }  
-    default:{printf(Error);}
+    default:printf(Error);
 }
