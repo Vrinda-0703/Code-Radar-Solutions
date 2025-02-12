@@ -7,20 +7,16 @@ int main(){
     scanf("%c",&c);
     switch (c){
     case'+':
-        int sum=a+b;
-        printf(sum);
+        printf("%d",a+b);
         break;
     case'-':
-        int diff=a-b;
-        printf(diff);
+        printf("%d",a-b);
         break;
     case'*':
-        int c=a*b;
-        printf(c);
+        printf("%d",a*b);
         break;
     case'/':
-        int div=a/b;
-        printf(div);
+        printf("%",a/b);
         break;
     default:printf(Error);
     return 0;}
