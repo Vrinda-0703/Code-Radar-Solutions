@@ -4,13 +4,14 @@ int main(){
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
-    max=a;
-    if(b>max){
-        max=b;
+    if(a>b && a>c){
+        printf("%d", a);
     }
-    if(c>max){
-        max=c;
+    else if(b>c && b>a){
+        printf("%d", b);
     }
-    printf(max);
+    else{
+    printf("%d",c);
+    }
 return 0;
 }
