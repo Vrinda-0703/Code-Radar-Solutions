@@ -2,7 +2,7 @@
 int main(){
     int a,n,count;
     for(a=1;a<=n;a++){
-        if(a%n==0){
+        if(n%a==0){
             count++;
         }
     }
