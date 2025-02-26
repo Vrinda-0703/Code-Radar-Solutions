@@ -5,8 +5,7 @@ int main(){
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%c",&c);
-    switch (c)'
-    '
+    switch (c)
     case '+':
     {
         int s=a+b;
@@ -28,11 +27,14 @@ int main(){
     case '/':
     {
         int z=a/b;
+        if(b!=0){
         printf("%d",z);
+        }
+        else{
+            printf("Division not possible")
+        }
         break;
     }
     default:
         printf("Error");
     }
-    return 0;}
-}
