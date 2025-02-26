@@ -27,7 +27,7 @@ int main(){
         printf("%d",a/b);
         }
         else{
-            printf("Division not possible");
+            printf("error");
         }
         break;
     
