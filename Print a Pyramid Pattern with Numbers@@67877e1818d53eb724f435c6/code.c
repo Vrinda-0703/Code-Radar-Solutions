@@ -10,7 +10,8 @@ int main(){
             num++;
         }
     
-      printf("%d",num);
+     
     printf("\n");
     }
+     printf("%d",num);
 }
