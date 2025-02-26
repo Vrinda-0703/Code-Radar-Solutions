@@ -4,38 +4,35 @@ int main(){
     char c;
     scanf("%d", &a);
     scanf("%d", &b);
-    scanf("%c", &c);
+    scanf(" %c", &c);
     switch (c){
     case '+':
     {
-        int s=a+b;
-        printf("%d",s);
+        printf("%d",a+b);
         break;
     }
     case '-':
     {
-        int m=a-b;
-        printf("%d",m);
+        printf("%d",a-b);
         break;
     }
     case '*':
     {
-        int y=a*b;
-        printf("%d",y);
+        printf("%d",a*b);
         break;
     }
     case '/':
     {
         if(b!=0){
-        int z=a/b;
-        printf("%d",z);
+        printf("%d",a/b);
         }
         else{
             printf("Division not possible");
         }
         break;
-    }
+    
     default:
-        printf("Error");
+    printf("Error");
+    }
     }
 }
