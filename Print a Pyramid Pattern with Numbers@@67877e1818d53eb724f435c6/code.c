@@ -8,6 +8,7 @@ int main(){
         }
         for(c=1;c<=2*a-1;c++){
             printf("%d",num);
+            printf(" ");
             num++;
         }
     printf("\n");
