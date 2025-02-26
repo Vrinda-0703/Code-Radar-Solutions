@@ -7,6 +7,7 @@ int main(){
             printf("%d", num);
             printf(" ");
         }
+    a++;
     printf("\n");
     }
 }
