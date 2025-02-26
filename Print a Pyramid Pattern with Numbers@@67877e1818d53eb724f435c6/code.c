@@ -8,6 +8,7 @@ int main(){
         }
         for(c=1;c<=2*a;c++){
             printf("%d",b);
+            b++;
         }
     printf("\n");
     }
