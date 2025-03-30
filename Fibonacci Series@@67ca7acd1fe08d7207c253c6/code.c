@@ -4,8 +4,8 @@ int main(){
     int n;
     scanf("%d", &n);
     if(n<=0){
-        printf("Please enter a positive integer.\n");
-        return 1;
+        printf("Invalid input\n");
+        return 0;
     }
     fibonacciSeries();
     return 0;
