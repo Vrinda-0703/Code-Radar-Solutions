@@ -2,7 +2,6 @@
 void bubbleSort(int arr[],int n);
 void printArray(int arr[],int n);
 int main(){
-    int arr[100];
     int n;
     scanf("%d", &n);
     for (int i=0;i<n;i++){
