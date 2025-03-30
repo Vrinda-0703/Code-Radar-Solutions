@@ -3,6 +3,10 @@ void fibonacciSeries(int n);
 int main(){
     int n;
     scanf("%d", &n);
+    if(n<=0){
+        printf("Please enter a positive integer.\n");
+        return 1;
+    }
     fibonacciSeries();
     return 0;
 }
